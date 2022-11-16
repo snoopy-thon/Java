@@ -1,6 +1,7 @@
+package ch6;
 class Data2 { int x; }
 public class Ex6_7 {
-	// ch6-24 ÂüÁ¶Çü ¸Å°³º¯¼ö
+	// ch6-24
 	public static void main(String[] args) {
 		Data2 d = new Data2();
 		d.x = 10;

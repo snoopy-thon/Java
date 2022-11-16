@@ -1,9 +1,10 @@
+package ch6;
 
 class Ex6_4 {
 
 	public static void main(String[] args) {
 		MyMath mm = new MyMath();
-		long result = mm.max(5, 3); // ë‘˜ ì¤‘ì— í° ê°’ì„ ë°˜í™˜í•˜ëŠ” ë©”ì„œë“œ
+		long result = mm.max(5, 3); // µÑ Áß¿¡ Å« °ªÀ» ¹İÈ¯ÇÏ´Â ¸Ş¼­µå
 		long result1 = mm.add(5L, 3L);
 		long result2 = mm.subtract(5L, 3L);
 		
@@ -20,7 +21,7 @@ class MyMath {
 		for(int i=1; i<=9; i++) {
 			System.out.printf("%d * %d = %d%n", dan, i ,dan * i);
 		}
-		// return; ë°˜í™˜íƒ€ì…ì´ voidì´ë¯€ë¡œ ìƒëµê°€ëŠ¥
+		// return; ¹İÈ¯Å¸ÀÔÀÌ voidÀÌ¹Ç·Î »ı·«°¡´É
 	}
 	long add(long a, long b) {
 		return a + b;

@@ -1,5 +1,7 @@
 //ch6-25 참조형 반환타입
 // 1.Data3, Data4 클래스 생성
+package ch6;
+
 class Data3 { int x; }
 class Data4 { int x; }
 public class Ex6_8 {
