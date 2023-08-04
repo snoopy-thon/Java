@@ -1,5 +1,6 @@
 package ch6;
 
+// ¿¹Á¦ 6-10
 class ChangeData{ int x; }
 
 public class ReferenceParamEx {
