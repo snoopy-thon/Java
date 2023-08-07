@@ -19,7 +19,7 @@ public class Array2Quiz1 {
 		
 		System.out.println();
 		
-	// Quiz-2. 반대로 다시 2차원 배열 arr2값을 1차원 배열로 옮기시오.
+	// Quiz-2. 반대로 다시 2차원 배열 arr2값을 1차원 배열 arr3으로 옮기시오.
 		int[] arr3 = new int[12];
 		for(int i=0; i<arr2.length; i++) {
 			for(int j=0; j<arr2[i].length; j++) {
