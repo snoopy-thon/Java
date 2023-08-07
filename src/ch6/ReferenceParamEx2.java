@@ -1,15 +1,15 @@
 package ch6;
-// ¿¹Á¦ 6-11 Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º ´ë½Å ¹è¿­À» ÀÌ¿ëÇÔ.
+// ì˜ˆì œ 6-11 í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ëŒ€ì‹  ë°°ì—´ì„ ì´ìš©í•¨.
 public class ReferenceParamEx2 {
 	public static void main(String[] args) {
-		int[] x = {10}; // Å©±â°¡ 1ÀÎ ¹è¿­. x[0] = 10;
+		int[] x = {10}; // Å©ï¿½â°¡ 1ï¿½ï¿½ ï¿½è¿­. x[0] = 10;
 		System.out.println("main() : x = " + x[0]);
 		
 		change(x);
 		System.out.println("After change(x)");
 		System.out.println("main() : x = " + x[0]);
 	}
-	static void change(int[] x) { // ÂüÁ¶Çü ¸Å°³º¯¼ö
+	static void change(int[] x) { // ì°¸ì¡°í˜• ë§¤ê°œë³€ìˆ˜
 		x[0] = 1000;
 		System.out.println("change() : x = " + x[0]);
 	}

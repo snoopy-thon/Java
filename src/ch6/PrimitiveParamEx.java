@@ -12,7 +12,7 @@ public class PrimitiveParamEx {
 		System.out.println("main() : x = " + d.x);
 	}
 	
-	// ¸Å°³º¯¼ö°¡ ±âº»ÇüÀÏ ¶§ ¸Ş¼Òµå¿¡¼­ º¯°æÇÏ·Á°í ÇØµµ ½ÇÁ¦ °ª º¯°æ ¾ÈµÊ
+	// ë§¤ê°œë³€ìˆ˜ê°€ ê¸°ë³¸í˜•ì¼ ë•Œ ë©”ì†Œë“œì—ì„œ ë³€ê²½í•˜ë ¤ê³  í•´ë„ ì‹¤ì œ ê°’ ë³€ê²½ ì•ˆë¨
 	static void change(int x) {
 		x = 1000;
 		System.out.println("change() : x = " + x);
