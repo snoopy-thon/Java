@@ -64,6 +64,7 @@ public class ForQuiz_1 {
 		for(int i=1; i<=9; i++) {
 			int answer7;
 			answer7 = (i-1)/3 + 1;
+			// answer7 = (i+2) / 3 얘도 가능
 			System.out.printf("%d %d%n",i,answer7);
 		}
 		
