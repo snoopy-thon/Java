@@ -1,7 +1,7 @@
 package ch5;
 
 public class ArrayEx6 {
-
+// 예제 5-6 최대값과 최소값
 	public static void main(String[] args) {
 		int[] score = {79, 88, 91, 33, 100, 55, 95};
 		
