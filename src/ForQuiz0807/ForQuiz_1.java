@@ -3,7 +3,7 @@ package ForQuiz0807;
 public class ForQuiz_1 {
 
 	public static void main(String[] args) {
-		// 1¹ø
+		// 1ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer1;
 			answer1 = i-1;
@@ -13,7 +13,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 2¹ø
+		// 2ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer2;
 			answer2 = 2*i;
@@ -22,7 +22,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 3¹ø
+		// 3ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer3;
 			answer3 = 2*(i-1);
@@ -31,7 +31,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 4¹ø
+		// 4ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer4;
 			answer4 = 2*i-1;
@@ -40,7 +40,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 5¹ø
+		// 5ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer5;
 			answer5 = i*i;
@@ -50,7 +50,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 6¹ø
+		// 6ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer6;
 			answer6 = 10-i;
@@ -60,7 +60,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 7¹ø 
+		// 7ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer7;
 			answer7 = (i-1)/3 + 1;
@@ -69,7 +69,7 @@ public class ForQuiz_1 {
 		
 		System.out.println();
 		
-		// 8¹ø
+		// 8ë²ˆ
 		for(int i=1; i<=9; i++) {
 			int answer8;
 			answer8 = (i-1)%3 + 1;
