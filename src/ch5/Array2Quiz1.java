@@ -9,9 +9,14 @@ public class Array2Quiz1 {
 			arr[i] = i+1;
 		}
 		
+		// for문 하나만 쓰기
+		for(int i=0; i<arr.length; i++) {
+			arr2[i/3][i%3] = arr[i];
+		}
+		
+		// 2차원 배열 출력
 		for(int i=0; i<arr2.length; i++) {
 			for(int j=0; j<arr2[i].length; j++) {
-				arr2[i][j] = arr[j+i*3];
 				System.out.print(arr2[i][j]);
 			}
 			System.out.println();
