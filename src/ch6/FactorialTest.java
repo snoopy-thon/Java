@@ -1,7 +1,7 @@
 package ch6;
 
 public class FactorialTest {
-	// 예제 6-15 재귀호출을 이용한 팩토리얼 구하기 
+	// 예제 6-15 재귀호출을 이용한 팩토리얼 구하기 (매개변수가 음수일 경우 에러남)
 	public static void main(String[] args) {
 		int result = factorial(4);
 		
