@@ -1,6 +1,6 @@
 package ch6;
 
-// 예제 6-10
+// 예제 6-10 참조형 매개변수
 class ChangeData{ int x; }
 
 public class ReferenceParamEx {

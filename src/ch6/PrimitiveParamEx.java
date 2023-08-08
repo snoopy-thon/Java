@@ -1,6 +1,6 @@
 package ch6;
 class Data { int x; }
-
+// 예제 6-9 기본형 매개변수일때 값 변경 불가
 public class PrimitiveParamEx {
 	public static void main(String[] args) {
 		Data d = new Data();
