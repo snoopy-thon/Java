@@ -6,17 +6,18 @@ public class ArrayQuiz1 {
 		int[] arr = {1,2,3};
 		int[] arr2 = {1,2,3};
 		int result=0;
+		// boolean eq = true;
 		
 		
 		for(int i=0; i<3; i++) {
 			if(arr[i] != arr2[i]) {
-				System.out.println("다릅니다.");
+				System.out.println("다릅니다."); // eq = false
 				break;
 			}else {
 				result++;
 			}
 		}
-		if(result == 3) {
+		if(result == 3) { // eq == true
 			System.out.println("같습니다.");
 		}
 		
