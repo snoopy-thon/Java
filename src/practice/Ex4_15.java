@@ -8,8 +8,10 @@ public class Ex4_15 {
 		
 		int result = 0;
 		while(tmp != 0) {
-			result += number % 10 * (int)Math.pow(10, 4);
-			result += number % 100 * (int)Math.pow(10, 4);
+			
+			result += (int)Math.pow(10,(int)Math.log10(tmp)) * (tmp % 10);
+			
+			tmp = (tmp - tmp % 10) / 10;
 			
 		}
 		
