@@ -10,6 +10,7 @@ class Car3{
 	}
 	
 	Car3(Car3 c){ // 인스턴스의 복사를 위한 생성자(참조변수를 매개변수로 선언)
+		// this(c.color, c.gearType, c.door); 이게 더 바람직한 코드
 		color = c.color;
 		gearType = c.gearType;
 		door = c.door;
