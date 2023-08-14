@@ -4,7 +4,7 @@ public class Ex6_20 {
 	static int[] shuffle(int[] arr) {
 		// 랜덤 인덱스의 배열값과 값을 바꿔서 배열 섞기
 		for(int i=0; i<arr.length; i++) {
-			int randomNum = (int)(Math.random() * 9);
+			int randomNum = (int)(Math.random() * arr.length);
 			int tmp = arr[i];
 			arr[i] = arr[randomNum];
 			arr[randomNum] = tmp;
