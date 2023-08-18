@@ -20,8 +20,7 @@ class Point {
 	//두점이 어떤 걸 말하는지 모르겠음 매개변수 Point p하나만 받아서 어떻게 하라는 거지?
 	// 나머지 한 점은 객체를 생성하여 생성자로 초기화한 (1,1) 로 생각함.
 	double getDistance(Point p) {
-		double distance = Math.sqrt(Math.pow(p.x - new Point().x, 2) + Math.pow(p.y - new Point().y,2));
-		return distance;
+		return Point.getDistance(new Point(), p);
 	}
 
 	
