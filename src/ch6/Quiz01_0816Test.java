@@ -1,8 +1,8 @@
 package ch6;
+/*
+//import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
 class Quiz01_0816Test {
 	static int mid(int x, int y, int z) {
@@ -26,9 +26,10 @@ class Quiz01_0816Test {
 		}
 		return midValue;
 	}
-	@Test
-	void test() {
+	//@Test
+	//void test() {
 		assertTrue(mid(1,2,3)==2);
-	}
+	//}
 
 }
+*/
