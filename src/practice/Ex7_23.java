@@ -1,4 +1,5 @@
 package practice;
+
 // 연습문제 7-23번
 import java.awt.*;
 
