@@ -2,7 +2,6 @@ package ch6;
 // 카드게임 퀴즈 3번
 import java.util.Arrays;
 import java.util.Objects;
-
 // Q3. 5장의 카드를 배열로 받아서 등급을 문자열로 반환하는 rankCheck 메서드를 작성하시오.
 class Card3 {
 	String shape;	// 카드 모양(H, D, S, C)
