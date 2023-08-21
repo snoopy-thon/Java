@@ -94,10 +94,10 @@ public class Quiz03_0816 {
 		arr[1] = new Card3("H",4);
 		arr[2] = new Card3("H",7);
 		arr[3] = new Card3("H",8);
-		arr[4] = new Card3("H",6);
+		arr[4] = new Card3("D",6);
 
 		Card3 c = new Card3();
-		System.out.println(c. rankCheck(arr));
+		System.out.println(c.rankCheck(arr));
 
 
 	}
