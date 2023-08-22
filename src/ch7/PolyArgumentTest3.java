@@ -28,15 +28,15 @@ class Computer23 extends Product23{
 
 class Audio23 extends Product23{
     Audio23() { super(50); }
-    public String toString() {return "Audio"; }
+    public String toString() { return "Audio"; }
 }
 
 class Buyer23{
     int money = 1000;
     int bonusPoint = 0;
-    Vector item = new Vector();
+    Vector item = new Vector();     // 구입한 제품을 저장하는데 사용될 Vector 객체
 
-    void buy(Product p){
+    void buy(Product23 p){
         if(money < p.price){
             System.out.println("잔액이 부족하여 물건을 살 수 없습니다.");
             return;
@@ -76,6 +76,19 @@ class Buyer23{
     }
 }
 public class PolyArgumentTest3 {
+    public static void main(String[] args) {
+        Buyer23 b = new Buyer23();
+        Tv23 tv = new Tv23();
+        Computer23 com = new Computer23();
+        Audio23 audio = new Audio23();
 
+        b.buy(tv);
+        b.buy(com);
+        b.buy(audio);
+        b.summary();
+        System.out.println();
+        b.refund(com);
+        b.summary();
+    }
 
 }
