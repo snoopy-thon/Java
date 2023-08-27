@@ -1,4 +1,5 @@
 // 0825 MyVector 프린트
+// 0827 커밋테스트
 public class MyVector {
     Object[] objArr = null;
     int size = 0;
