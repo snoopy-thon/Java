@@ -42,7 +42,7 @@ public class MyVector {
         return objArr[index];
     }
 
-    @Override
+    //@Override
    // public String toString() {
         //return ;
     //}
