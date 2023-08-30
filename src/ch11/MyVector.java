@@ -1,5 +1,6 @@
 package ch11;
 import java.util.*;
+
 public class MyVector implements List {
     Object[] data = null;
     int capacity = 0;
@@ -49,14 +50,10 @@ public class MyVector implements List {
         return oldObj;
     }
 
-    @Override
-    public int indexOf(Object o) {
-        return 0;
-    }
 
     @Override
     public int lastIndexOf(Object o) {
-        return 0;
+        return -1;
     }
 
     @Override
@@ -125,7 +122,10 @@ public class MyVector implements List {
     public boolean addAll(int index, Collection c) { return false; }
     public boolean removeAll(Collection c) { return false; }
     public boolean retainAll(Collection c) { return false; }
-
+    public boolean equals(Object o){ return  false; }
     public Object set(int index, Object element) { return null;}
     public void add(int index, Object element){}
+    public int indexOf(Object o){ return -1; }
+
+
 }
