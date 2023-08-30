@@ -1,8 +1,7 @@
 package ch11;
 
-import java.sql.SQLOutput;
 import java.util.*;
-class Iterator {
+class Iterator_Ex {
     public static void main(String[] args) {
 
         ArrayList list = new ArrayList();
@@ -12,11 +11,11 @@ class Iterator {
         list.add("4");
         list.add("5");
 
-        //Iterator it = list.iterator();
+        Iterator it = list.iterator();
 
-        //while(it.hasNext()) {
-        //    Object obj = it.next();
-        //    System.out.println(obj);
-        //}
+        while(it.hasNext()) {
+            Object obj = it.next();
+            System.out.println(obj);
+        }
     }
 }
