@@ -7,7 +7,7 @@ public class ComparatorEx {
         Arrays.sort(strArr); // String의 Comparable구현에 의한 정렬
         System.out.println("strArr=" + Arrays.toString(strArr));
 
-        Arrays.sort(strArr, String.CASE_INSENSITIVE_ORDER); // 대소문자 구분안함
+        Arrays.sort(strArr, String.CASE_INSENSITIVE_ORDER);
         System.out.println("strArr=" + Arrays.toString(strArr));
 
         Arrays.sort(strArr, new Descending()); // 역순 정렬
