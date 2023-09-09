@@ -13,7 +13,11 @@ class StringCheck {
         //  arr의 길이만큼 확인 했는데 모두같다면 answer=1로 하고 반복문을 나온다.
         //  중간에 같지 않다는 게 확인되면 반복문을 빠져나간다.
         for(int i=0; i<= str1.length()-str2.length()+1; i++) {
-            if(str1.charAt(i) == str2.charAt(0)) {
+            if(str1.charAt(i) != str2.charAt(0)) {
+                answer = 2;
+                continue;
+            }
+            else{
                 answer = 1;
                 for (int j = 1; j < str2.length(); j++) {
                     if (str1.charAt(i + j) != str2.charAt(j)) {
@@ -22,7 +26,7 @@ class StringCheck {
                     }
                 }
                 if(answer == 1) break;
-            }else answer = 2;
+            }
         }
         return answer;
     }
