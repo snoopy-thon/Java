@@ -11,7 +11,7 @@ public class ThreadEx12 {
             th1.sleep(2000);
         }catch (InterruptedException e){}
 
-        System.out.println("<<main 종료>>");
+       // System.out.println("<<main 종료>>");
     }
 }
 
